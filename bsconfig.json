@@ -1,0 +1,20 @@
+{
+  "name": "incremental-search",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": [ "-bs-g" ],
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [ "reason-react","reason-future", "reason-react-update", "reason-react-compat" ]
+}
