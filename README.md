@@ -1,4 +1,4 @@
-# react-reason-components
+# incremental-search study
 
 ## Run Project
 
