@@ -49,14 +49,14 @@ ReactDOMRe.renderToElementWithId(
       "Incremental Future"->React.string
     </header>
     <TextIncrementalSearch
-      searchResultView={results =>{
-    Js.log(results);
+      searchResultView={results => {
+        Js.log(results);
         <ul>
           {results
            |> List.map(text => <li key=text> {text |> React.string} </li>)
            |> Array.of_list
            |> React.array}
-        </ul>
+        </ul>;
       }}
     />
     <header role="heading" ariaLevel=1>

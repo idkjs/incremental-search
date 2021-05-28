@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "scripts": {
     "start": "bsb -make-world -w",
+    "format": "bsrefmt --in-place **/*re",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack serve",
     "webpack:production": "NODE_ENV=production webpack"
   },
-  "keywords": [
-    "BuckleScript"
-  ],
+  "keywords": [ "BuckleScript" ],
   "author": "",
   "license": "MIT",
   "dependencies": {
